@@ -17,8 +17,10 @@ void print(char* c){
 	}
 	printf("\n");
 }
+
 int main(){
 	char C[20]="Hello";
+	// char* C="Hello";//Declares it as const.
 	print(C);
 	return 0;
 }
